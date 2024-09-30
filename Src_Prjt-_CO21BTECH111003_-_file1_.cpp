@@ -104,7 +104,7 @@ void BoruvkaMST(vector<Edge>& edges, int V, int numThreads, ofstream& outputFile
 }
 
 int main() {
-    ifstream inputFile("graph_input.txt"); // Replace with your input file name
+    ifstream inputFile("graph_input.txt"); // Read input file
     if (!inputFile.is_open()) {
         cerr << "Unable to open the file." << endl;
         return 1;
